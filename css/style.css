@@ -1,0 +1,216 @@
+/* подключение шрифта */
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:wght@400;700;900&display=swap");
+
+/* @font-face {
+	font-family: "Helvetica Neue";
+	src: url("../HelveticaNeue-CondensedRegular.woff2") format("woff2"),
+		url("../HelveticaNeue-CondensedRegular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../HelveticaNeue-Bold.woff2") format("woff2"), url("../HelveticaNeue-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../HelveticaNeue-CondensedBlack.woff2") format("woff2"),
+		url("../HelveticaNeue-CondensedBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+} */
+
+/* обнуление */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	line-height: 1;
+	font-family: "Roboto";
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ------------------------ */
+
+.main {
+}
+.pagecontacts {
+	padding: 50px;
+}
+.pagecontactsbody {
+	font-size: 14px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+ul li {
+	margin: 0px 0px 16px 0px;
+	padding: 0px 0px 0px 32px;
+	min-height: 20px;
+}
+.pagecontactslocation {
+	line-height: 16px;
+	max-width: 200px;
+	background: url(../img/contacts/01.png) 0 0 / 16px no-repeat;
+}
+.pagecontactstel {
+	background: url(../img/contacts/02.png) 0 0 / 16px no-repeat;
+}
+.pagecontactsmail {
+	background: url(../img/contacts/03.png) 0 0 / 16px no-repeat;
+}
+.pagecontactstime {
+	background: url(../img/contacts/04.png) 0 0 / 16px no-repeat;
+}
+
+/* --------------- */
+
+.pagetop {
+	padding: 280px 0px 408px 0px;
+	background: url(../img/top/bg.jpg) 50% / cover no-repeat;
+}
+.pagetopbody {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.pagetoptitle {
+	margin: 0px 0px 48px 0px;
+	max-width: 570px;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 56px;
+	color: #ffffff;
+}
+
+.pagetopbtn {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	padding: 10px 43px 10px 20px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	background: url(../img/top/02.png) 95% 45% no-repeat, #c40b0b url(../img/top/03.png) 100% 0 no-repeat;
+}
+.pagetopbtn a {
+	color: #ffffff;
+}
+
+/* ---------------------- */
+
+.cars {
+	background: url(../img/cars/bg.jpg) center / cover no-repeat;
+	padding: 112px 0px 212px 0px;
+}
+.carscontainer {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.carsimg {
+    margin: -191px 0px -129px auto;
+	width: 498px;
+	height: 315px;
+	background: url(../img/cars/05.jpg) no-repeat;
+}
+.carsour {
+	margin: 0px 0px 75px 0px;
+}
+.carsourtitle {
+	background: url(../img/cars/logo.png) no-repeat;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 31px 0px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #d5d5d5;
+}
+.carsourtext {
+	max-width: 411px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+.carsitems {
+	max-width: 237px;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 20px 0px 0px;
+}
+.ct {
+	margin: 0px 0px 0px 0px;
+}
+.carsitemsimg {
+	display: inline-block;
+	vertical-align: top;
+}
+.carsitemsbody {
+	display: inline-block;
+	
+}
+.carsitemstitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #c40b0b;
+}
+.carsitemstext {
+	max-width: 149px;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #f5f5f5;
+}
